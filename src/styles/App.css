@@ -1,0 +1,102 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* .App {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+.App div {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background: linear-gradient( white, #3F6E49, #314B37,black );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Adjusts section display from flex to box as viewport decreases*/
+
+@media screen and (max-width: 900px) {
+  .content {
+   display: block;
+   margin: auto;
+  } 
+}
+
+@media screen and (max-width: 900px) {
+   .content h2 {
+       margin-left: 40%;
+       margin-right: 40%;
+   }
+}
+
+@media screen and (max-width: 900px) {
+   .content img {
+       margin-left: 30%;
+       margin-right: 30%;
+   }
+}
+
+
+/* Adjust images from flex to block display as viewport decreases*/
+
+@media screen and (max-width: 1200px){
+   #card {
+       display:block;
+   }
+}
+
+
+/*adjusts larger images margins to better align as viewport decreases in size*/
+
+@media screen and (max-width: 1270px){
+   #large-image {
+       margin-top: 100px;
+   }
+}
+
+@media screen and (max-width: 1200px){
+   #large-image {
+       margin-top: 0px;
+   }
+}
