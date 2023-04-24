@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/professional-portfolio-react/static/css/main.073c9b0a.css",
-    "main.js": "/professional-portfolio-react/static/js/main.ecea1b1d.js",
-    "static/js/787.e6da46d6.chunk.js": "/professional-portfolio-react/static/js/787.e6da46d6.chunk.js",
-    "static/media/logo.svg": "/professional-portfolio-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/professional-portfolio-react/static/css/main.ae8d9c73.css",
+    "main.js": "/professional-portfolio-react/static/js/main.85a34718.js",
+    "static/media/weatherApp.png": "/professional-portfolio-react/static/media/weatherApp.36c75213f143818017d9.png",
+    "static/media/headshot.jpg": "/professional-portfolio-react/static/media/headshot.4f43eda6cf4fbfb736a6.jpg",
+    "static/media/neoplants.png": "/professional-portfolio-react/static/media/neoplants.90a5109d3f47d73ce222.png",
+    "static/media/movieBattle.png": "/professional-portfolio-react/static/media/movieBattle.8cf0d7d812897dced8ea.png",
     "index.html": "/professional-portfolio-react/index.html",
-    "main.073c9b0a.css.map": "/professional-portfolio-react/static/css/main.073c9b0a.css.map",
-    "main.ecea1b1d.js.map": "/professional-portfolio-react/static/js/main.ecea1b1d.js.map",
-    "787.e6da46d6.chunk.js.map": "/professional-portfolio-react/static/js/787.e6da46d6.chunk.js.map"
+    "main.ae8d9c73.css.map": "/professional-portfolio-react/static/css/main.ae8d9c73.css.map",
+    "main.85a34718.js.map": "/professional-portfolio-react/static/js/main.85a34718.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ecea1b1d.js"
+    "static/css/main.ae8d9c73.css",
+    "static/js/main.85a34718.js"
   ]
 }
