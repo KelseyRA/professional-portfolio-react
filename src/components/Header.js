@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Bio from "./Bio";
-import Footer from "./Footer";
 import Form from "./Form";
 import Projects from "./Projects";
 import Resume from "./Resume";
@@ -17,18 +16,21 @@ function Header() {
 		setContact(false);
 		setAboutMe(true);
 		setMyWork(false);
+		setResume(false);
 	}
 
 	function contactClick() {
 		setContact(true);
 		setAboutMe(false);
 		setMyWork(false);
+		setResume(false);
 	}
 
 	function myWorkClick() {
 		setContact(false);
 		setAboutMe(false);
 		setMyWork(true);
+		setResume(false);
 	}
 
     function resumeClick() {
@@ -39,7 +41,7 @@ function Header() {
 	}
 
 	return (
-		<header>
+		<header className ="main-header-styles">
 			<ul>
 				<li>
 					<a href="#contact-me" onClick={contactClick}>
@@ -47,8 +49,8 @@ function Header() {
 					</a>
 				</li>
 				<li>
-					<a href="#my-work" onClick={myWorkClick}>
-						My Work
+					<a href="#portfolio" onClick={myWorkClick}>
+						Portfolio
 					</a>
 				</li>
 				<li>

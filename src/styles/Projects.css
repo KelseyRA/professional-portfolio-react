@@ -1,19 +1,4 @@
-main {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #314b378a;
-    padding: 12px;
-    border-top: dashed #6e8d75;
-    border-bottom: dashed white;
-    justify-content: center;
-}
 
-main h2 {
-    color: white;
-    margin: 12px;
-    padding: 12px;
-    text-align: center;
-}
 
 #card {
     display: flex;

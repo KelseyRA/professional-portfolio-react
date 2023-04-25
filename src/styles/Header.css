@@ -1,13 +1,13 @@
 /* header styling*/
 
-header {
+.main-header-styles {
     padding: 25px;
     background-color:#3F6E49;
     color:white;
 }
 
 
-header ul li {
+.main-header-styles ul li {
     float:right;
     display:inline;
     list-style: none;

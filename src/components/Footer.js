@@ -6,7 +6,6 @@ function Footer() {
 	return (
 		<footer id="contact-me">
 			<ul>
-				<li>Phone: 607-342-1321</li>
 				<a
 					target="blank"
 					href="https://github.com/KelseyRA"

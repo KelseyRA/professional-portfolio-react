@@ -1,3 +1,18 @@
-.proficiencies {
-    display: inline;
+.resume {
+    background: linear-gradient( white, #3F6E49, #314B37,black );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20px;
+}
+
+a {
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.frontend {
+    display: block;
+    float:left;
+    padding: 5px;
+    margin-bottom: 10px;
 }

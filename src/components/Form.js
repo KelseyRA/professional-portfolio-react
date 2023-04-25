@@ -21,13 +21,19 @@ function Form() {
 		} else {
 			setMessage(inputValue)
 		}
+
+		if (inputValue.trim()=== "") {
+			setErrorMessage(`${inputType} is required`)
+		} else {
+			setErrorMessage('')
+		}
 	};
 
 	const handleFormSubmit = (e) => {
 		e.preventDefault();
 
 		if (!validateEmail(email) || !fullName || !message) {
-			setErrorMessage("Email, name, message is not valid");
+			setErrorMessage("Email, name, or message is not valid");
 
 			return;
 		}
@@ -44,6 +50,7 @@ function Form() {
 					value={fullName}
 					name="fullName"
 					onChange={handleInputChange}
+					onBlur={handleInputChange}
 					type="text"
 					placeholder="Full Name"
 				/>
@@ -51,6 +58,7 @@ function Form() {
 					value={email}
 					name="email"
 					onChange={handleInputChange}
+					onBlur={handleInputChange}
 					type="email"
 					placeholder="Email"
 				/>
@@ -58,6 +66,7 @@ function Form() {
 					value={message}
 					name="message"
 					onChange={handleInputChange}
+					onBlur={handleInputChange}
 					type="textarea"
 					placeholder="Message"
 				/>
