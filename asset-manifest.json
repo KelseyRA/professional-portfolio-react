@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/professional-portfolio-react/static/css/main.ae8d9c73.css",
-    "main.js": "/professional-portfolio-react/static/js/main.85a34718.js",
+    "main.css": "/professional-portfolio-react/static/css/main.34df4270.css",
+    "main.js": "/professional-portfolio-react/static/js/main.290cb2e8.js",
     "static/media/weatherApp.png": "/professional-portfolio-react/static/media/weatherApp.36c75213f143818017d9.png",
     "static/media/headshot.jpg": "/professional-portfolio-react/static/media/headshot.4f43eda6cf4fbfb736a6.jpg",
     "static/media/neoplants.png": "/professional-portfolio-react/static/media/neoplants.90a5109d3f47d73ce222.png",
+    "static/media/planner.png": "/professional-portfolio-react/static/media/planner.2f3f4032d35edb3da735.png",
+    "static/media/codingQuiz.png": "/professional-portfolio-react/static/media/codingQuiz.66e7763d044f39b5a879.png",
+    "static/media/passwordGen.png": "/professional-portfolio-react/static/media/passwordGen.880e10a15dd11d809a67.png",
     "static/media/movieBattle.png": "/professional-portfolio-react/static/media/movieBattle.8cf0d7d812897dced8ea.png",
     "index.html": "/professional-portfolio-react/index.html",
-    "main.ae8d9c73.css.map": "/professional-portfolio-react/static/css/main.ae8d9c73.css.map",
-    "main.85a34718.js.map": "/professional-portfolio-react/static/js/main.85a34718.js.map"
+    "main.34df4270.css.map": "/professional-portfolio-react/static/css/main.34df4270.css.map",
+    "main.290cb2e8.js.map": "/professional-portfolio-react/static/js/main.290cb2e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae8d9c73.css",
-    "static/js/main.85a34718.js"
+    "static/css/main.34df4270.css",
+    "static/js/main.290cb2e8.js"
   ]
 }
