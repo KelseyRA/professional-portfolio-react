@@ -13,7 +13,7 @@ function Bio() {
 				Bootcamp. I have a background in social services and have worked in the
 				nonprofit sector for over 9 years. I am excited to be able to utilize my
 				new skills to support nonprofits in a different capacity. Please take a
-				look at my work below.
+				look at my work by clicking on the portfolio link in the navigation above.
 			</p>
 		</section>
 	);

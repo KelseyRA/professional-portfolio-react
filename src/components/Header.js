@@ -4,6 +4,7 @@ import Form from "./Form";
 import Projects from "./Projects";
 import Resume from "./Resume";
 
+import "./Projects.module.css";
 import "../styles/Header.css";
 
 function Header() {
